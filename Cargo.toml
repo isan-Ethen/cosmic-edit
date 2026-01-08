@@ -44,8 +44,7 @@ git = "https://github.com/pop-os/cosmic-text.git"
 features = ["syntect", "vi"]
 
 [dependencies.libcosmic]
-git = "https://github.com/isan-Ethen/libcosmic.git"
-branch = "update-iced"
+git = "https://github.com/pop-os/libcosmic.git"
 default-features = false
 #TODO: a11y feature crashes file choser dialog
 features = ["about", "multi-window", "tokio", "winit", "surface-message"]
